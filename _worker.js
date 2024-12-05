@@ -25,7 +25,11 @@ let go2Socks5s = [
 	'*.loadshare.org',
 ];
 let addresses = [];
-let addressesapi = [];
+let addressesapi = [
+	'https://raw.githubusercontent.com/hjpwyb/WorkerVless2sub/refs/heads/main/addressesapi.txt', 
+        'https://wenben-8vd.pages.dev/tlsjiedian.txt?token=123456',//可参考内容格式 自行搭建。
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
+];
 let addressesnotls = [];
 let addressesnotlsapi = [];
 let addressescsv = [];
